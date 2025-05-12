@@ -13,8 +13,8 @@ export default function Navbar() {
     { name: 'Home', path: '/' },
     { name: 'About Us', path: '/#about' },
     { name: 'Practice Area', path: '/#practice' },
-    { name: 'Attorney', path: '/#attorney' },
-    { name: 'Contact Us', path: '/#contact' },
+    { name: 'Attorneys', path: '/#attorney' },
+    { name: 'Journal', path: '/#journal' },
   ];
 
   useEffect(() => {
@@ -31,7 +31,7 @@ export default function Navbar() {
 
   return (
     <nav className="w-full z-50 transition-all md:px-32 ">
-      <div className="lg:container mx-auto p-4 ">
+      <div className="lg:container mx-auto p-6 ">
         <div className="flex justify-between items-center">
           <Link href="/">
             {/* <Image src="/logo-sabika.png" width={250} height={100} alt='Sabika Group' /> */}
@@ -39,12 +39,12 @@ export default function Navbar() {
           </Link>
 
 
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex space-x-6">
             {navItems.map((item) => (
               <div key={item.path}>
                 <Link
                   href={item.path}
-                  className={`${isScrolled ? 'text-black' : 'text-black'} font-light transition-colors hover-underline-animation`}
+                  className={`${isScrolled ? 'text-black' : 'text-black'} font-reguler transition-colors hover-underline-animation`}
                 >
                   {item.name}
                 </Link>
@@ -53,7 +53,7 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:flex">
-            
+              wdqwdqw
 
           </div>
 
