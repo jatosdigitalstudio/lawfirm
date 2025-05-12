@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-text: var(--font-text);
+  --font-style: var(--font-style);
+  --color-maroon: #652126;
+  --color-cream: #E0C392;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-text);
+}
+
+#practice {
+  scroll-margin-top: 300px;
+}
