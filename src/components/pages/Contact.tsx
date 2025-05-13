@@ -22,9 +22,9 @@ export default function Contact() {
                     </p>
                 </div>
                 <div>
-                    <h1 className="text-xl leading-[1.2] font-style md:text-5xl font-medium">
-                        If you have any- <br />
-                    </h1>
+                    <h3 className="text-xl leading-[1.2] font-style md:text-5xl font-medium">
+                        If you have any legal problem in your life
+                    </h3>
                 </div>
                 <div className="flex flex-col md:flex-row mx-auto mt-6 justify-start gap-2 md:gap-4">
                     <Link href="/#about" scroll className="border border-white px-6 py-3 rounded-full">

@@ -53,7 +53,6 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:flex">
-              wdqwdqw
 
           </div>
 

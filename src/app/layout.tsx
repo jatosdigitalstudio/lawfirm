@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Rubik, Merriweather } from "next/font/google";
 import "@/styles/globals.css";
 import Header from "@/components/layout/Header"
+import Footer from "@/components/layout/Footer";
 
 const rubik = Rubik({
   variable: "--font-text",
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body className={`${rubik.variable} ${merriweather.variable} font-text antialiased`}>
         <Header />
         {children}
+        <Footer/>
       </body>
     </html>
   );

@@ -3,31 +3,37 @@ export const SERVICES = [
     { 
         id: 1,
         name: "Real Estate Law",
+        image: "/realestate.png",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl aliquet sed leo sollicitudin donec magna.", 
     },
     { 
         id: 2,
         name: "Finance Law",
+        image: "/finance.png",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl aliquet sed leo sollicitudin donec magna.", 
     },
     { 
         id: 3,
         name: "Transportation Law",
+        image: "/transportation.png",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl aliquet sed leo sollicitudin donec magna.", 
     },
     { 
         id: 4,
         name: "Corporate Law",
+        image: "/corporate.png",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl aliquet sed leo sollicitudin donec magna.", 
     },
     { 
         id: 5,
         name: "Maritim Law",
+        image: "/maritim.png",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl aliquet sed leo sollicitudin donec magna.", 
     },
     { 
         id: 6,
         name: "Insurance Law",
+        image: "/insurance.png",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl aliquet sed leo sollicitudin donec magna.", 
     },
     
